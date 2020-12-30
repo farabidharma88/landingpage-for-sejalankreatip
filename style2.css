@@ -1,0 +1,463 @@
+
+* {
+    margin: 0;
+    text-decoration: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+.img-fluid1{
+    max-width: 27%;
+    height: auto;
+}  
+.jumbotron{
+    margin-bottom: 0%;
+}
+.nav-link{
+    font: normal normal 600 22px Lato;
+}
+.nav-brand{
+
+}
+.container{
+
+}
+.bgsatu {
+    background: url(photo/photo.jpeg) no-repeat;
+    background-size: cover;
+  }
+
+.overlay1{
+    background: transparent linear-gradient(241deg, #FFFFFF 0%, #555353 71%, #000000 100%) 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 60%;
+}
+
+.logo::after{
+    right: -28px;
+    position: absolute;
+    content: "";
+    width: 6px;
+    height: 159px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.logo{
+    position: relative;
+}
+.logo img{
+    filter: drop-shadow(-4px 3px 3px #000000AC);
+}
+.hatas{
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    letter-spacing: 4.8px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: 900;
+    font-size: 36px;
+}
+.pbawah{
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    letter-spacing: 11.76px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-weight: 700;
+    font-size: 19px;
+    background: #EFB9605A 0% 0% no-repeat padding-box;
+    position: relative;
+    width: fit-content;
+    padding: 0 8px;
+}
+.bgdua{
+    background: url(photo/NicePng_grunges-png_4145075.png);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 30%;
+}
+.hatas_2_1{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    letter-spacing: 21.62px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 900;
+    font-size: 60px;
+    z-index: 2;
+    
+}
+
+.hatas_2_2::before {
+    
+    right: 141px;
+    position: absolute;
+    content: "";
+    width: 994px;
+    height: 35px;
+    background: #EFB96077 0% 0% no-repeat padding-box;
+    bottom: -1px;
+    z-index: -1;
+}
+.hatas_2_2{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    letter-spacing: 21.62px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 900;
+    font-size: 60px;
+    z-index: 2;
+}
+.pbawah_2{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: right;
+    letter-spacing: 12.76px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 700;
+    font-size: 23px;
+    
+}
+.whbg{
+    background-color: white;
+}
+.square{
+    position: absolute;
+    top: 208%;
+    left: 49%;
+    width: 800px;
+    height: 800px;
+    transform: matrix(0.98, -0.21, 0.21, 0.98, 0, 0);
+    background: #EFB960E2 0% 0% no-repeat padding-box;
+    opacity: 0.9;
+    float: right;
+    z-index: 0;
+}
+.photo{ 
+    position: absolute;
+    top: 208%;
+    left: -6%;
+    width: 800px;
+    transform: matrix(0.98, -0.19, 0.19, 0.98, 0, 0);
+    /* UI Properties */
+    /*background: transparent url('photo/TEAM.jpg') 0% 0% no-repeat padding-box;*/
+    box-shadow: 22px 12px 9px #00000081;
+    opacity: 1;
+    float: left;
+    z-index: 1;
+
+}
+.imgteam{
+    
+    max-width: 100%;
+    max-height: 100%;
+    display: block; /* remove extra space below image */
+}
+.hatas_3_1{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    letter-spacing: 9.62px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 900;
+    font-size: 22px;
+    z-index: 2;
+    font: normal normal 900 84px/75px Lato;  
+}
+
+.hatas_3_1::before {
+    position: absolute;
+    content: "";
+    width: 460px;
+    height: 79px;
+    /* UI Properties */
+    background: #FFFFFF96 0% 0% no-repeat padding-box;
+    z-index: -1;
+    
+}
+.hatas_3_2{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    letter-spacing: 9.62px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 900;
+    font-size: 22px;
+    z-index: 2;
+    font: normal normal 900 84px/75px Lato;   
+}
+.pbawah_3{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    letter-spacing: 1.24px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 17px;
+    padding-left: 0;
+    padding-right: 23%;
+}
+.pbawah_4 {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+    letter-spacing: 1.76px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 19px;
+    padding-left: 31%;
+    top: 15%;
+    
+}
+.hatas_4_2{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    letter-spacing: 9.62px;
+    color: #000000;
+    opacity: 1;
+    font-weight: 900;
+    font-size: 22px;
+    z-index: 2;
+    font: normal normal 900 182px Lato;  
+    margin-bottom: 0%; 
+}
+.hatas_4_1{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    letter-spacing: 9.62px;
+    color: #000000;
+    opacity: 1;
+    font-size: 22px;
+    z-index: 2;
+    font: normal normal 600 110px Lato;  
+    margin-bottom: 0%;
+}
+.bulat{
+    top: 345%;
+    position: absolute;
+    width: 475px;
+    height: 475px;
+    background: #EFB960 0% 0% no-repeat padding-box;
+    opacity: 0.8;
+    border-radius: 50%;
+    left: -6%;
+}
+.hatas_5_1{
+    text-align: center;
+    font: normal normal 900 44px Lato;
+    letter-spacing: 18.76px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+.hatas_5_2{
+    text-align: center;
+    font: normal normal 900 44px Lato;
+    letter-spacing: 18.76px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+.pbawah_5 {
+    text-align: center;
+    font: normal normal 500 22px/32px Lato;
+    letter-spacing: 1.76px;
+    color: #000000;
+    opacity: 1;
+}
+.hatas_5_1::before {
+    right: 41px;
+    position: absolute;
+    content: "";
+    width: 644px;
+    height: 50px;
+    background: #EFB960 0% 0% no-repeat padding-box;
+    bottom: 44px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.hatas_5_2::before {
+    right: 62px;
+    position: absolute;
+    content: "";
+    width: 266px;
+    height: 50px;
+    background: #EFB960 0% 0% no-repeat padding-box;
+    bottom: 44px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.hatas_6_1{
+    text-align: center;
+    font: normal normal 1000 44px Lato;
+    letter-spacing: 18.76px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+.hatas_6_2_1 {
+    text-align: center;
+    font: normal normal 700 22px Lato;
+    letter-spacing: 3.76px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+.hatas_6_2_2 {
+    text-align: center;
+    font: normal normal 700 22px Lato;
+    letter-spacing: 3.76px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+.hatas_6_2_3 {
+    text-align: center;
+    font: normal normal 700 22px Lato;
+    letter-spacing: 3.76px;
+    color: #000000;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+}
+.hatas_6_2_1::before {
+    right: 8px;
+    position: absolute;
+    content: "";
+    width: 339px;
+    height: 16px;
+    background: #EFB960 0% 0% no-repeat padding-box;
+    bottom: 66px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.hatas_6_2_2::before {
+    right: 30px;
+    position: absolute;
+    content: "";
+    width: 293px;
+    height: 16px;
+    background: #EFB960 0% 0% no-repeat padding-box;
+    bottom: 66px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.hatas_6_2_3::before {
+    right: 37px;
+    position: absolute;
+    content: "";
+    width: 281px;
+    height: 16px;
+    background: #EFB960 0% 0% no-repeat padding-box;
+    bottom: 66px;
+    z-index: -1;
+    opacity: 0.8;
+}
+.logolast{
+    position: relative;
+}
+.hatas_7_1_1{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    letter-spacing: 9.62px;
+    color: #000000;
+    opacity: 1;
+    font-size: 22px;
+    z-index: 2;
+    font: normal normal 600 46px Lato;  
+    margin-bottom: 0%;
+}
+.hatas_7_1_2{
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    letter-spacing: 9.62px;
+    color: #000000;
+    opacity: 1;
+    font-size: 22px;
+    z-index: 2;
+    font: normal normal 600 46px Lato;  
+    margin-bottom: 0%;
+}
+.overlay2{
+    background: #f5ab35c7 0% 0% no-repeat padding-box;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 85%;
+}
+.hatas_7_1_1::before {
+    right: 140px;
+    position: absolute;
+    content: "";
+    width: 303px;
+    height: 52px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    bottom: 2px;
+    z-index: -1;
+    opacity: 0.5;
+}
+.hatas_7_1_2::before {
+    right: 58px;
+    position: absolute;
+    content: "";
+    width: 422px;
+    height: 14px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    bottom: 2px;
+    z-index: -1;
+    opacity: 0.5;
+}
+.hatas_7_1_2::before {
+    right: 58px;
+    position: absolute;
+    content: "";
+    width: 422px;
+    height: 14px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    bottom: 2px;
+    z-index: -1;
+    opacity: 0.5;
+}
+.hatas_7_1_2 img {
+    width: 3%;
+    position: absolute;
+    right: 4%;
+    bottom: 70%;
+    opacity: 0.8;
+}
+/* The navigation bar */
+.navbar {
+    overflow: hidden;
+    
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+  }
+  /* Main content */
+  .main {
+    margin-top: 0px; /* Add a top margin to avoid content overlay */
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: rgb(0 0 0);
+}
